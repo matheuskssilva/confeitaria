@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeiteria Sonhos Doces</title>
+
+
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container_global">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbarr">
+                    <h1 class="confeitaria_h1 ">CONFEITARIA SONHOS</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    <div class="collapse navbar-collapse flew-row" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#sobre-a-confeitaria">SOBRE</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#nosso-cardapio">CARDÁPIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#galeria">GALERIA</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#eventos">EVENTOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
+                        </ul>
+                        <div class="input_search">
+                            <input type="text" placeholder="Search">
+                            <a href="#"><img src="/images/search 1.png" alt="Logo Search"></a>
+                        </div>
+                        <div class="icons">
+                            <a href="#"><img src="/images/person-fill 1.png" alt=""></a>
+                            <a href="#"><img src="/images//bag 1.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </nav>
+
+            </div>
+        </header>
+
+        <section class="carousel-container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/confeitaria-1.jpg" class="d-block w-100" alt="..." height="800px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/confeitaria-2.jpg" class="d-block w-100" alt="..." height="800px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/confeitaria-3.jpg" class="d-block w-100" alt="..." height="800px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+
+        <section id="sobre-a-confeitaria">
+
+            <div class="sobre_container">
+                <div class="img_sobre">
+                    <img src="/images/confeitaria-2.jpg" alt="" width="500px" height="333px">
+                </div>
+                <div class="text_sobre">
+                    <h1>SOBRE A <span>CONFEITARIA</span></h1>
+                    <p>Bem-vindo à Confeitaria Sonhos Doces, onde a magia dos<br> sabores ganha vida. Nossos bolos meticulosamente<br> decorados, cupcakes delicados e doces artesanais<br> transportam você para um mundo de indulgência. Os<br> aromas tentadores
+                        dançam no ar, enquanto a atmosfera<br> acolhedora convida a saborear cada momento.<br> Deixe-se levar pela doçura dos nossos sonhos açucarados, criados<br> com paixão para adoçar a sua realidade.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="nosso-cardapio">
+            <div class="container_cardapio">
+
+                <div class="row">
+                    <h1 class="section-title text-center">Nosso <span>Cardápio</span></h1>
+                </div>
+                <div class="row">
+                    <aside class="col-md-1">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bolo" class=" fw-bold text-start nav-link active">Bolo</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cupcake" class=" fw-bold text-start nav-link">CupCake</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#doces" class=" fw-bold text-start nav-link">Doces</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#paesequitutes" class=" fw-bold text-start nav-link">Pães e Quitutes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class=" fw-bold text-start nav-link">Bebidas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-9 ">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bolo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/bolos/bolo-de-chocolate-amargo-4-900x600-1.jpeg" alt="" class="w-100 d-block">
+                                        <h5>Bolo de chocolate clássico</h5>
+                                        <p>Um deleite para os amantes de chocolate,<br> com camadas fofas de bolo de cacau rico<br> e uma cobertura suave de ganache de chocolate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/bolos/bolo-de-morango-com-chantilly-scaled.jpg" alt="" class="w-100 d-block">
+                                        <h5>Bolo de Morango com Chantilly</h5>
+                                        <p>Uma combinação irresistível de bolos<br>macios, recheio de morangos frescos e<br>cobertura de chantilly leve e cremoso.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/bolos/Bolo de Baunilha com Frutas Frescas.jpg" alt="" class="w-100 d-block" height="215px">
+                                        <h5>Bolo de Baunilha com Frutas Frescas</h5>
+                                        <p> O bolo de baunilha leve encontra a frescura<br> das frutas da estação, proporcionando uma<br>experiência deliciosamente equilibrada.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cupcake">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/cupcake/Cupcake de Baunilha com Buttercream Colorido.jpg" alt="" class="w-100 d-block">
+                                        <h5>Cupcake de Baunilha com Buttercream Colorido</h5>
+                                        <p>Um cupcake fofo e decorativo, com a doçura da baunilha e um toque de cor no buttercream.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cupcake/Cupcake de Café com Creme de Avelã.jpg" alt="" class="w-100 d-block" height="210px">
+                                        <h5>Cupcake de Café com Creme de Avelã</h5>
+                                        <p>Uma dose de energia em forma de cupcake, com a intensidade do café e a cremosidade do creme de avelã.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/cupcake/Cupcake de Chocolate com Ganache de Caramelo.jpg" alt="" class="w-100 d-block" height="215px">
+                                        <h5>Cupcake de Chocolate com Ganache de Caramelo</h5>
+                                        <p>Uma explosão de sabores, com o rico chocolate combinado à suavidade do caramelo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="doces">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/doces/Brigadeiro Tradicional.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Brigadeiro Tradicional</h5>
+                                        <p>Um clássico brasileiro, o brigadeiro é feito com carinho e enrolado em uma cobertura de confeitos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/doces/Beijinho de Coco.png" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Beijinho de Coco</h5>
+                                        <p>Pequenas delícias de coco envoltas em açúcar, lembrando momentos de festa.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/doces/Trufa de Chocolate Meio Amargo.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Trufa de Chocolate Meio Amargo</h5>
+                                        <p>Uma experiência luxuosa de chocolate, com o amargor equilibrado e uma textura irresistível.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="paesequitutes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/paesQuitotes/Pão Doce de Canela.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Pão Doce de Canela </h5>
+                                        <p>Um aroma tentador de canela em um pão macio e levemente adocicado.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/paesQuitotes/Croissant de Chocolate.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Croissant de Chocolate</h5>
+                                        <p>Camadas crocantes de massa folhada envolvendo uma surpresa de chocolate derretido.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/paesQuitotes/Pão de Queijo Recheado.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Pão de Queijo Recheado</h5>
+                                        <p>Um clássico brasileiro com um toque especial, recheado com ingredientes deliciosos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="/images/bebidas/Chocolate Quente Cremoso.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Chocolate Quente Cremoso</h5>
+                                        <p>O conforto em forma de bebida, com o calor do chocolate derretido.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/bebidas/Milkshake de Morango.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Milkshake de Morango</h5>
+                                        <p>Uma indulgência gelada, perfeita para satisfazer desejos doces.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="/images/bebidas/Sucos Naturais.jpg" alt="" class="w-100 d-block" height="205px">
+                                        <h5>Sucos Naturais</h5>
+                                        <p>Uma variedade de sabores frescos para quem busca uma opção mais leve.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="galeria">
+            <div class="container_galeria">
+                <div class="text_galeia">
+                    <h1>GALERIA</h1>
+                    <p>Cada fotografia é um convite para explorar a paixão e a precisão que dedicamos a cada criação. Cada textura, cor e forma são cuidadosamente<br> destacados, convidando você a embarcar em uma jornada visual. "CONFEITARIA SONHOS DOCES”
+                        é a celebração artística da nossa dedicação à<br> arte da confeitaria. Venha mergulhar nesse mundo de sabor e estética, onde os doces se tornam verdadeiras obras de arte para os olhos e o paladar.</p>
+                </div>
+                <div class="images_galeria">
+                    <div class="img_galeria">
+                        <img src="/images/galerias/galeria-1.jpg" alt="" width="250px" height="163px">
+                        <img src="/images/galerias/galeria-2.jpg" alt="" width="250px" height="163px">
+                        <img src="/images/galerias/galeria-3.jpg" alt="" width="250px" height="163px">
+                    </div>
+                    <div class="img_galeria">
+                        <img src="/images/galerias/galeria-4.jpg" alt="" width="250px" height="163px">
+                        <img src="/images/galerias/galeria-5.jpg" alt="" width="250px" height="163px">
+                        <img src="/images/galerias/galeria-6.jpg" alt="" width="250px" height="163px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="eventos">
+            <div class="container_eventos">
+                <div class="text_eventos">
+                    <h1>eventos</h1>
+                    <p>Desde festas de aniversário até casamentos, nosso tema de eventos incorpora a essência da doçura em cada decoração e prato preparado. As<br>cores suaves e a iluminação acolhedora criam um ambiente caloroso e convidativo para seus convidados.
+                        Cada mordida é uma experiência<br>sensorial que une sabor e beleza.</p>
+                </div>
+                <div class="images_eventos">
+                    <div class="img_eventos">
+                        <img src="/images/eventos/casamentos/casamento-1.jpg" alt="" width="250px" height="163px">
+                        <p>Casamento</p>
+                        <img src="/images/eventos/casamentos/casamento-2.jpg" alt="" width="250px" height="163px">
+                        <p>Casamento</p>
+                        <img src="/images/eventos/casamentos/casamento-3.jpg" alt="" width="250px" height="163px">
+                        <p>Casamento</p>
+
+                    </div>
+                    <div class="img_eventos">
+                        <img src="/images/eventos/aniversario/aniversario-1.jpeg" alt="" width="250px" height="163px">
+                        <p>Aniversário</p>
+                        <img src="/images/eventos/aniversario/aniversario-2.jpg" alt="" width="250px" height="163px">
+                        <p>Aniversário</p>
+                        <img src="/images/eventos/aniversario/aniversario-3.jpg" alt="" width="250px" height="163px">
+                        <p>Aniversário</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contato">
+            <div class="container_contato">
+                <div class="area_contato">
+                    <div class="text_contato">
+                        <h1>Contato</h1>
+                    </div>
+                    <div class="info_contato">
+                        <div class="img_contato">
+                            <img src="/images/telephone.png" alt="Telefone Contato">
+                            <div class="text_contato">
+                                <h1>Tel:</h1>
+                                <p>51 9540915-79</p>
+                            </div>
+                            <img src="/images/geo-alt-fill.png" alt="Mapa icone">
+                            <div class="text_contato">
+                                <h1>endereço:</h1>
+                                <p>Rua Brasil Dias, 234 - Americana - SP</p>
+                            </div>
+                            <img src="/images/cash-coin.png" alt="Dinheiro icone">
+                            <div class="text_contato">
+                                <h1>formas de pagamento:</h1>
+                                <p>CARTÕES DE CRÉDITO: VISA / MASTER / AMEX / DINERS / ELO /<br> AME DIGITALCARTÕES DE DÉBITO: VISA ELECTRON<br> / MASTERCARD / ELOTICKETS REFEIÇÃO: SODEXO / ALELO / TR /<br> VR
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_contato">
+                    <form>
+                        <h1>Deixe sua mensagem</h1>
+                        <input type="text" placeholder="Digite seu nome">
+                        <input type="email" placeholder="Digite seu e-mail">
+                        <input type="tel" placeholder="Digite seu telefone">
+                        <textarea placeholder="Digite sua mensagem" resize="none"></textarea>
+                        <button class="btn_contato" type="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <div class="container_footer">
+                <div class="logo_cartoes">
+                    <img src="/images/visa.png" alt="" width="20px" height="6px">
+                    <img src="/images/hipercard.png" alt="" width="20px" height="8px">
+                    <img src="/images/master.png" alt="" width="10px" height="7px">
+                    <img src="/images/Elo_logo.png" alt="" width="10px" height="10px">
+                </div>
+                <div class="text_footer">
+                    &copy;Todos os Direitos Guardados e Reservados. Desenvolvido Por Matheus Silva 2023
+                </div>
+                <div class="midias_footer">
+                    <a href="https://www.facebook.com/reinaldo.silva.1029" target="_blank"><img src="/images/facebook.svg" alt="Icone facebook"></a>
+                    <a href="https://github.com/matheuskssilva?tab=repositories" target="_blank"><img src="/images/github.svg" alt="Icone github"></a>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
